@@ -15,6 +15,8 @@
 		55727F192B1CA4C500B68E9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55727F182B1CA4C500B68E9D /* Assets.xcassets */; };
 		55727F1C2B1CA4C500B68E9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55727F1A2B1CA4C500B68E9D /* LaunchScreen.storyboard */; };
 		55BB36FC2B25DEF10025219F /* TemperatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB36FB2B25DEF10025219F /* TemperatureViewController.swift */; };
+		55BB36FE2B2742A30025219F /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB36FD2B2742A30025219F /* AddEditViewController.swift */; };
+		55BB37002B27463C0025219F /* PlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB36FF2B27463C0025219F /* PlanViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		55727F1D2B1CA4C500B68E9D /* _206_IOSproject_TsangKaPo_ChowChingHo_NgKaKin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _206_IOSproject_TsangKaPo_ChowChingHo_NgKaKin.entitlements; sourceTree = "<group>"; };
 		55727F1E2B1CA4C500B68E9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55BB36FB2B25DEF10025219F /* TemperatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureViewController.swift; sourceTree = "<group>"; };
+		55BB36FD2B2742A30025219F /* AddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
+		55BB36FF2B27463C0025219F /* PlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 				55727F1E2B1CA4C500B68E9D /* Info.plist */,
 				55727F152B1CA4C300B68E9D /* _206_IOSproject_TsangKaPo_ChowChingHo_NgKaKin.xcdatamodeld */,
 				55BB36FB2B25DEF10025219F /* TemperatureViewController.swift */,
+				55BB36FD2B2742A30025219F /* AddEditViewController.swift */,
+				55BB36FF2B27463C0025219F /* PlanViewController.swift */,
 			);
 			path = 4206_IOSproject_TsangKaPo_ChowChingHo_NgKaKin;
 			sourceTree = "<group>";
@@ -148,6 +154,8 @@
 			files = (
 				55727F112B1CA4C300B68E9D /* ViewController.swift in Sources */,
 				55727F0D2B1CA4C300B68E9D /* AppDelegate.swift in Sources */,
+				55BB36FE2B2742A30025219F /* AddEditViewController.swift in Sources */,
+				55BB37002B27463C0025219F /* PlanViewController.swift in Sources */,
 				55727F0F2B1CA4C300B68E9D /* SceneDelegate.swift in Sources */,
 				55727F172B1CA4C300B68E9D /* _206_IOSproject_TsangKaPo_ChowChingHo_NgKaKin.xcdatamodeld in Sources */,
 				55BB36FC2B25DEF10025219F /* TemperatureViewController.swift in Sources */,
