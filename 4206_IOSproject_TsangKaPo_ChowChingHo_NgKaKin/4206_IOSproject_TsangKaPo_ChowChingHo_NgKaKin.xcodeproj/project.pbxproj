@@ -17,6 +17,9 @@
 		55BB36FC2B25DEF10025219F /* TemperatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB36FB2B25DEF10025219F /* TemperatureViewController.swift */; };
 		55BB36FE2B2742A30025219F /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB36FD2B2742A30025219F /* AddEditViewController.swift */; };
 		55BB37002B27463C0025219F /* PlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BB36FF2B27463C0025219F /* PlanViewController.swift */; };
+		CEA715242B287E1B00FB9F6A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA715232B287E1B00FB9F6A /* HomeViewController.swift */; };
+		CEA715262B287E3F00FB9F6A /* ServiceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA715252B287E3F00FB9F6A /* ServiceAPI.swift */; };
+		CEA715282B287E4500FB9F6A /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA715272B287E4500FB9F6A /* CurrentWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		55BB36FB2B25DEF10025219F /* TemperatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureViewController.swift; sourceTree = "<group>"; };
 		55BB36FD2B2742A30025219F /* AddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
 		55BB36FF2B27463C0025219F /* PlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanViewController.swift; sourceTree = "<group>"; };
+		CEA715232B287E1B00FB9F6A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CEA715252B287E3F00FB9F6A /* ServiceAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceAPI.swift; sourceTree = "<group>"; };
+		CEA715272B287E4500FB9F6A /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,7 @@
 		55727F0B2B1CA4C300B68E9D /* 4206_IOSproject_TsangKaPo_ChowChingHo_NgKaKin */ = {
 			isa = PBXGroup;
 			children = (
+				CEA715232B287E1B00FB9F6A /* HomeViewController.swift */,
 				55727F0C2B1CA4C300B68E9D /* AppDelegate.swift */,
 				55727F0E2B1CA4C300B68E9D /* SceneDelegate.swift */,
 				55727F102B1CA4C300B68E9D /* ViewController.swift */,
@@ -77,6 +84,8 @@
 				55BB36FB2B25DEF10025219F /* TemperatureViewController.swift */,
 				55BB36FD2B2742A30025219F /* AddEditViewController.swift */,
 				55BB36FF2B27463C0025219F /* PlanViewController.swift */,
+				CEA715252B287E3F00FB9F6A /* ServiceAPI.swift */,
+				CEA715272B287E4500FB9F6A /* CurrentWeather.swift */,
 			);
 			path = 4206_IOSproject_TsangKaPo_ChowChingHo_NgKaKin;
 			sourceTree = "<group>";
@@ -155,9 +164,12 @@
 				55727F112B1CA4C300B68E9D /* ViewController.swift in Sources */,
 				55727F0D2B1CA4C300B68E9D /* AppDelegate.swift in Sources */,
 				55BB36FE2B2742A30025219F /* AddEditViewController.swift in Sources */,
+				CEA715242B287E1B00FB9F6A /* HomeViewController.swift in Sources */,
 				55BB37002B27463C0025219F /* PlanViewController.swift in Sources */,
 				55727F0F2B1CA4C300B68E9D /* SceneDelegate.swift in Sources */,
+				CEA715282B287E4500FB9F6A /* CurrentWeather.swift in Sources */,
 				55727F172B1CA4C300B68E9D /* _206_IOSproject_TsangKaPo_ChowChingHo_NgKaKin.xcdatamodeld in Sources */,
+				CEA715262B287E3F00FB9F6A /* ServiceAPI.swift in Sources */,
 				55BB36FC2B25DEF10025219F /* TemperatureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
